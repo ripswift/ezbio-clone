@@ -7,7 +7,10 @@
 - Buttons
 - Songs
 
-
+-----------
+Website Currently for Personal Use.
+Account Creation is not an Option at the Moment.
+-----------
 
 # React + Vite
 
