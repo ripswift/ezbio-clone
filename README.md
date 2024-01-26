@@ -1,4 +1,4 @@
-# Inspiration By: E-Z.bio Guns.lol Feds.lol 
+# Inspiration By: e-z.bio guns.lol feds.lol 
 
 - Profile Views
 - Personal Links
