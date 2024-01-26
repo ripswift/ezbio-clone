@@ -1,0 +1,469 @@
+    :root {
+
+    background-color:  #232323;
+
+
+    }
+
+
+
+    .main-container {
+       opacity: 90%;
+        
+        position: fixed;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        background-color: #62626248;
+        padding: 90px;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid white; /* New line for white border */
+        backdrop-filter: blur(10px);
+        border-radius: .375rem;
+        border-width: 2px;
+        
+
+    }
+    .container {
+        
+        display: flex;
+       
+        align-items: center;
+    
+    }
+    
+    .pfp {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: fixed;
+        margin-right: 10px;
+        transform: translateX(120px);
+        top: 15px;
+        border: 2px solid black;
+    }   
+    
+    .name {
+        margin-left: 10px;
+        font-weight: bold;
+        position: fixed;
+        font-size: 22px;
+        margin-right: 10px;
+        transform: translateX(124.4px);
+        top: 110px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+   
+   
+    }
+    
+
+    .name:hover::before {
+        content: "UID 0";
+        position: absolute;
+        background-color: #020202;
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+        top: 0px; /* Adjust the distance from the top */
+        left: 150%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        white-space: nowrap; /* Prevent the text from wrapping */
+        width: 50px;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    
+
+    .outside {
+        display: flex;
+        align-items: center;
+    }
+    
+    .view {
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        transform: translateX(400px); /* Adjust the translateX value as needed */
+        top: 16.3px;
+    }
+    
+    .num:hover::before {
+        content: "Profile Views";
+        position: absolute;
+        background-color: #020202;
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+        top: 22px; /* Adjust the distance from the top */
+        left: 150%;
+        transform: translateX(-65%);
+        font-size: 14px;
+        white-space: nowrap; /* Prevent the text from wrapping */
+        width: 103px;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    
+
+    .num {
+        
+        font-family: 'Roboto', sans-serif;
+        text-decoration: bold;
+        color: white;
+        font-size: 14px; 
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+       transform: translateX(364px);
+        top: 21px;
+    }
+
+    .bio {
+
+        margin-left: 10px;
+        position: fixed;
+        font-size: 13px;
+        margin-right: 10px;
+        transform: translateX(80px);
+        top: 160px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+
+    .links {
+        gap: .75rem;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 200px;
+        background-color: #00000000;
+        padding: 5px;
+        width: 520px;
+        height: 50px;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .link1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: fill;
+        border: 2px solid white;
+        
+    }
+    
+.link1:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+    scale: 1.05;
+}
+    
+
+
+.link2 {
+        
+    width: 50px;
+        height: 50px;
+    border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid white;
+}
+
+.link2:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+    scale: 1.05;
+}
+
+
+    .link3 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid white;
+    }
+    .link3:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+        scale: 1.05;
+    }
+    .link4 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid white;
+    
+    }
+    .link4:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+        scale: 1.05;
+    }
+    .link5 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid white;
+    
+    }
+    .link5:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+        scale: 1.05;
+    }
+
+    .div1 {
+
+
+
+         position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 276px;
+        background-color: #ffffff;
+        padding: 1px;
+        width: 500px;
+        height: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+
+
+    }
+
+.div2 {
+
+
+    position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 450px;
+        background-color: #ffffff;
+        padding: 1px;
+        width: 500px;
+        height: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.button1 {
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+    position: fixed;
+    left: 6%;
+    top: 464px;
+    background-color: #00000000;
+    padding: 5px;
+    width: 450px;
+    height: 35px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+
+}
+
+
+  
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Set a lower z-index so that it stays in the background */
+  }
+  
+  
+
+.button2 {
+color: white;
+text-align: center;
+text-decoration: none;
+position: fixed;
+left: 6%;
+top: 525px;
+background-color: #00000000;
+padding: 5px;
+width: 450px;
+height: 35px;
+display: flex;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+text-decoration: bold;
+}
+
+.button1:hover::before {
+    content: attr(data-label);
+    position: absolute;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    top: 30px;
+    left: 38%;
+    transform: translateX(-10%);
+    font-size: 14px;
+    white-space: nowrap;
+    width: 130px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .button2:hover::before {
+    content: attr(data-label);
+    position: absolute;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    top: 33px;
+    left: 38%;
+    transform: translateX(-10%);
+    font-size: 14px;
+    white-space: nowrap;
+    width: 130px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+/* Existing styles for .song */
+.song {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 279px;
+    background-color: #00000000;
+    padding: 5px;
+    width: 491px;
+    height: 161px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  /* Existing styles for .songcover */
+  .songcover {
+    background-color: white;
+    padding: 2px;
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    left: 20px;
+    border-radius: 10px;
+    
+}
+  
+  /* Existing styles for .songinfo */
+  .songinfo {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px; 
+    margin-left: -100px;
+    transform: translateY(20px);
+}
+  
+  /* Existing styles for .songtitle, .artist, .album */
+  .songtitle,
+  .artist,
+  .album {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    margin: 2px; /* Add margin for separation */
+    transform: translateY(-30px);
+  }
+  
+  /* New styles for .progress-bar */
+/* New styles for .progress-bar */
+.progress-bar-container {
+    border-radius: 10px;
+    height: 10px;
+    background-color: #00000000; 
+    margin-top: 10px;
+    width: 60%; 
+    border: 2.5px solid black;
+    overflow: hidden; 
+    transform: translateY(93px);
+    margin-left: 100px;
+}
+
+  .progress-bar {
+    height: 100%;
+    background-color: #ffffff; 
+    width: 0; 
+    transition: width 1s linear;
+    border-radius: 10px;
+
+}
+  
+
+  /* Existing styles */
+
+.time-label {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+   
+    transform: translateX(50px);
+}
+
+.overlay {
+    background: black;
+    position: fixed;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 9999; 
+  
+
+}
+
+.click {
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 360px;
+
+
+}
