@@ -1,3 +1,14 @@
+# Inspiration By: E-Z.bio Guns.lol Feds.lol 
+
+- Profile Views
+- Personal Links
+- Bio
+- Avatar
+- Buttons
+- Songs
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
