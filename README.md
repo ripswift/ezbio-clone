@@ -23,3 +23,13 @@ Currently, two official plugins are available:
 
 ----------------------------------
 ![img](https://i.imgur.com/2OSRybO.png)
+
+
+
+----------------------------------
+Steps to Run Website.
+
+1. npm create vite@latest
+2. install the src code
+3. replace and add files to your code
+4. npm install i (install all node_modules)
