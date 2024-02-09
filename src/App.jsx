@@ -11,7 +11,7 @@ import wokeup from './song/wokeup.mp3';
 import bg from './videos/bg.mp4';
 import git from './images/git2.png';
 function App() {
-  const [viewCount, setViewCount] = useState(2852);
+  const [viewCount, setViewCount] = useState(2872);
   const [currentTime, setCurrentTime] = useState(0);
   const maxTime = 128;
   const [isPlaying, setIsPlaying] = useState(false);
