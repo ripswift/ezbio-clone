@@ -132,15 +132,14 @@
 
     .bio {
 
-        margin-left: 10px;
-        position: fixed;
-        font-size: 13px;
-        margin-right: 10px;
-        transform: translateX(80px);
-        top: 160px;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-
+      margin-left: 10px;
+      position: fixed;
+      font-size: 13px;
+      margin-right: 10px;
+      transform: translate(109px);
+      top: 160px;
+      color: #fff;
+      font-family: Roboto,sans-serif;
     }
 
 
