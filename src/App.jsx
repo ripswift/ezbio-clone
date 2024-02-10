@@ -132,7 +132,7 @@ function App() {
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
         <h1 className='name'>shadow</h1>
-        <h1 className='bio'>This User has no Description.</h1>
+        <h1 className='bio'>Owner of shdw.site</h1>
 
         <div className='links'>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
