@@ -131,19 +131,19 @@ function App() {
         <h1 className='bio'>Owner of shdw.site</h1>
         </div>
         <div className='links'>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/2HB2QedJXb7055" target="_blank" rel="noopener noreferrer">
             <img src={twitter} className='link1' alt="Twitter" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/movemented" target="_blank" rel="noopener noreferrer">
             <img src={git} className='link2' alt="GitHub" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/movemented/" target="_blank" rel="noopener noreferrer">
             <img src={insta} className='link3' alt="Instagram" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/channel/UCbrSndkaflZIa6HaCBHLRvA" target="_blank" rel="noopener noreferrer">
             <img src={yt} className='link4' alt="YouTube" />
           </a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com/users/1079862959360184390" target="_blank" rel="noopener noreferrer">
             <img src={discord} className='link5' alt="Discord" />
           </a>
         </div>
