@@ -390,8 +390,9 @@ text-decoration: bold;
     display: flex;
     flex-direction: column; 
     margin-top: 10px; 
-    margin-left: -100px;
+    margin-left: 10px;
     transform: translateY(20px);
+
 }
   
   /* Existing styles for .songtitle, .artist, .album */
