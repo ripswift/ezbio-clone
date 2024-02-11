@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import pfp from './images/pfp.jpg';
+import pfp from './images/gojo1.gif';
 import view from './images/viewW.svg';
 import twitter from './images/x.png';
 import insta from './images/insta.png';
 import yt from './images/yt.png';
 import discord from './images/discord.png';
-import cover from './images/cover.png';
+import cover from './images/cover1.png';
 import wokeup from './song/wokeup.mp3';
+import stop from './song/stopplayin.mp3';
 import bg from './videos/bg.mp4';
 import git from './images/git2.png';
 
@@ -15,7 +16,7 @@ import git from './images/git2.png';
 function App() {
   const [viewCount, setViewCount] = useState(2872);
   const [currentTime, setCurrentTime] = useState(0);
-  const maxTime = 128;
+  const maxTime = 211;
   const [isPlaying, setIsPlaying] = useState(false);
   const [showOverlay, setShowOverlay] = useState(true);
   const [isOverlayClicked, setIsOverlayClicked] = useState(false);
@@ -89,7 +90,7 @@ function App() {
   
   function audioPlay() {
     var audio = document.getElementById('audio');
-    audio.volume = 0.5;
+    audio.volume = 1;
     audio.play();
   }
 
@@ -149,18 +150,18 @@ function App() {
           <div className='progress-bar-container'>
             <div className='progress-bar' style={{ width: `${(currentTime / maxTime) * 100}%` }} />
           </div>
-          <a href='https://open.spotify.com/track/3jM9VzF2d1AMUyTD8sTmPu?si=0276064ed0814fdf&nd=1&dlsi=f95a64e213a049ce' target='_blank' rel='noopener noreferrer'>
+          <a href='https://soundcloud.com/trapdailysounds/glokk40spaz-sg-lul-ki-stop-playin-prod-by-khroam' target='_blank' rel='noopener noreferrer'>
             <img src={cover} className='songcover' alt='' />
           </a>
           <div className='songinfo'>
-            <p1 className='songtitle'>Wokeup</p1>
-            <p1 className='artist'>by Kankan</p1>
-            <p1 className='album' href>on Wokeup</p1>
+            <p1 className='songtitle'>Stop Playin</p1>
+            <p1 className='artist'>by Glokk40Spaz & SG Lul Ki</p1>
+            <p1 className='album' href>on Stop Playin</p1>
           </div>
           <div className='time-label'>
             {formatTime(currentTime)} / {formatTime(maxTime)}
           </div>
-          <audio id='audio' src={wokeup} />
+          <audio id='audio' src={stop} />
         </div>
         <div className='div2'></div>
         <button
