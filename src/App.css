@@ -73,7 +73,7 @@
         color: #ffffff;
         padding: 5px;
         border-radius: 5px;
-        top: 0px; /* Adjust the distance from the top */
+        top: 3px; /* Adjust the distance from the top */
         left: 150%;
         transform: translateX(-50%);
         font-size: 14px;
