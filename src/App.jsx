@@ -126,8 +126,10 @@ function App() {
         <img src={view} className='view' alt="View Icon" />
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
+        <div className='info' >
         <h1 className='name'>shadow</h1>
         <h1 className='bio'>Owner of shdw.site</h1>
+        </div>
         <div className='links'>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <img src={twitter} className='link1' alt="Twitter" />
