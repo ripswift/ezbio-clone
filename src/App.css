@@ -469,3 +469,9 @@ text-decoration: bold;
 
 
 }
+
+
+.info {
+    position: fixed;
+    left: 15%;
+}
