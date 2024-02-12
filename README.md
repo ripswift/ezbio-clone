@@ -29,7 +29,7 @@ Currently, two official plugins are available:
 ----------------------------------
 Steps to Run Website.
 
-1. Download Node.js [node.js](https://nodejs.org/en)
+1. Download [Node.js](https://nodejs.org/en)
 2.  npm create vite@latest
 3. install the src code
 4. open folder ezbio-clone-root
