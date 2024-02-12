@@ -29,9 +29,10 @@ Currently, two official plugins are available:
 ----------------------------------
 Steps to Run Website.
 
-1. npm create vite@latest
-2. install the src code
-3. open folder ezbio-clone-root
-4. cd into ezbio-clone-root
-5. npm install i (install all node_modules)
-6. npm run dev
+1. Download Node.js (https://nodejs.org/en)
+2.  npm create vite@latest
+3. install the src code
+4. open folder ezbio-clone-root
+5. cd into ezbio-clone-root
+6. npm install i (install all node_modules)
+7. npm run dev
