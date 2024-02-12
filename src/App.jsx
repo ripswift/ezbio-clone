@@ -7,11 +7,9 @@ import insta from './images/insta.png';
 import yt from './images/yt.png';
 import discord from './images/discord.png';
 import cover from './images/cover1.png';
-import wokeup from './song/wokeup.mp3';
 import stop from './song/stopplayin.mp3';
 import bg from './videos/bg.mp4';
 import git from './images/git2.png';
-
 
 function App() {
   const [viewCount, setViewCount] = useState(2872);
@@ -23,13 +21,44 @@ function App() {
   const [copyStatus, setCopyStatus] = useState('');
   const [cssLabel, setCssLabel] = useState('Copy BTC Address');
   const [cssLabel1, setCssLabel1] = useState('Copy LTC Address');
+  const [bio, setBio] = useState('');
   const [entered, setEntered] = useState(false); // State for animation
+
+  // Typewriter effect
+  const [bioText, setBioText] = useState("Owner of shdw.site");
+  const [index, setIndex] = useState(0);
+  const [isTyping, setIsTyping] = useState(true);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (isTyping) {
+        if (index < bioText.length) {
+          setBio(prevBio => prevBio + bioText.charAt(index));
+          setIndex(prevIndex => prevIndex + 1);
+        } else {
+          setIsTyping(false);
+        }
+      } else {
+        if (index >= 0) {
+          setBio(prevBio => prevBio.slice(0, index));
+          setIndex(prevIndex => prevIndex - 1);
+        } else {
+          setIsTyping(true);
+        }
+      }
+    }, 50);
+
+    return () => clearInterval(timer); // Cleanup the timer
+  }, [bioText, index, isTyping]);
 
   useEffect(() => {
     fetch('/increment-view')
       .then(response => response.json())
       .then(data => setViewCount(data.viewCount))
       .catch(error => console.error('Error:', error));
+
+    // Other side effects...
+
   }, []);
 
   function formatTime(seconds) {
@@ -127,8 +156,8 @@ function App() {
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
         <div className='info' >
-        <h1 className='name'>shadow</h1>
-        <h1 className='bio'>Owner of shdw.site</h1>
+          <h1 className='name'>shadow</h1>
+          <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
         <div className='links'>
           <a href="https://twitter.com/2HB2QedJXb7055" target="_blank" rel="noopener noreferrer">
