@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import pfp from './images/gojo1.gif';
+import pfp from './images/pfp1.gif';
 import view from './images/viewW.svg';
 import twitter from './images/x.png';
 import insta from './images/insta.png';
 import yt from './images/yt.png';
 import discord from './images/discord.png';
-import cover from './images/cover1.png';
+import cover from './images/cover.png';
 import stop from './song/stopplayin.mp3';
-import bg from './videos/bg.mp4';
+import bg from './videos/car.mp4';
 import git from './images/git2.png';
 
 function App() {
-  const [viewCount, setViewCount] = useState(2872);
+  const [viewCount, setViewCount] = useState(3242);
   const [currentTime, setCurrentTime] = useState(0);
-  const maxTime = 211;
+  const maxTime = 128;
   const [isPlaying, setIsPlaying] = useState(false);
   const [showOverlay, setShowOverlay] = useState(true);
   const [isOverlayClicked, setIsOverlayClicked] = useState(false);
@@ -185,9 +185,9 @@ function App() {
             <img src={cover} className='songcover' alt='' />
           </a>
           <div className='songinfo'>
-            <p1 className='songtitle'>Stop Playin</p1>
-            <p1 className='artist'>by Glokk40Spaz & SG Lul Ki</p1>
-            <p1 className='album' href>on Stop Playin</p1>
+            <p1 className='songtitle'>Wokeup</p1>
+            <p1 className='artist'>by Kankan</p1>
+            <p1 className='album' href>on Wokeup</p1>
           </div>
           <div className='time-label'>
             {formatTime(currentTime)} / {formatTime(maxTime)}
