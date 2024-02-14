@@ -390,7 +390,7 @@ text-decoration: bold;
     display: flex;
     flex-direction: column; 
     margin-top: 10px; 
-    margin-left: 10px;
+    margin-left: -100px;
     transform: translateY(20px);
 
 }
@@ -470,8 +470,20 @@ text-decoration: bold;
 
 }
 
-
 .info {
     position: fixed;
     left: 15%;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
